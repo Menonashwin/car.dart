@@ -1,23 +1,14 @@
-void add(){
-  int a =15, b=20;
-  print("sum = ${a+b}");
-}
+void add(int a,b)=>print("sum = ${a+b}");
 
-void sub(){
-  int a = 20, b = 5;
-  print("substract = ${a-b}");
-}
-void div(){
-  double a = 125, b =20;
-  print("divisiom = ${a/b}");
-}
-void mult() {
-  int a = 20, b = 2;
-  print("multiplication = ${a * b}");
-}
+void sub(a, b )=>print("subtract = ${a-b}");
+
+void div(double a, b)=>print("division = ${a/b}");
+
+void mult(int a, b)=> print("multiplication = ${a * b}");
+
 void main(){
-  add();
-  sub();
-  div();
-  mult();
+  add(10, 20);
+  sub(50, 20);
+  div(100, 50);
+  mult(20, 27);
 }

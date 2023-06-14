@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:test/test.dart';
 
 void main(){
@@ -56,4 +58,10 @@ print(result);
 
   String result = username =="hidayath" && password =="hidayath123" ? "Welcome User" : "failed ";
   print(result);
+
+  print("-------------------");
+
+  //nullmore operators
+  String? pad = stdin.readLineSync()!;
+  var re = pad.length ?? "passord must not be null";
 }
